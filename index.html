@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AT - Best Africa Tour Destination</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="Tour Logo.png" alt="Africa Tour Logo">
+            <span>BEST AFRICA TOUR DESTINATION</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+
+            <!-- Foods Dropdown -->
+            <div class="nav-dropdown">
+                <button class="dropdown-btn">
+                    Foods <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dropdown-menu">
+                    <a href="#nigeria-foods">Nigeria</a>
+                    <a href="#kenya-foods">Kenya</a>
+                    <a href="#tanzania-foods">Tanzania</a>
+                </div>
+            </div>
+
+            <!-- Places Dropdown -->
+            <div class="nav-dropdown">
+                <button class="dropdown-btn">
+                    Places <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dropdown-menu">
+                    <a href="#nigeria-places">Nigeria</a>
+                    <a href="#kenya-places">Kenya</a>
+                    <a href="#tanzania-places">Tanzania</a>
+                </div>
+            </div>
+
+            <a href="#about">About</a>
+            <a href="#explore-next">Explore Next</a>
+
+        </nav>
+
+        <div class="header-icons">
+
+            <button class="search-btn" id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MOBILE NAVIGATION ================= -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
+        <a href="#nigeria-foods">Foods</a>
+        <a href="#nigeria-places">Places</a>
+        <a href="#about">About</a>
+        <a href="#explore-next">Explore Next</a>
+
+    </div>
+
+
+    <!-- ================= SEARCH BOX ================= -->
+
+    <div class="search-box" id="searchBox">
+
+        <input type="text" id="searchInput"
+            placeholder="Search food or destination...">
+
+        <button id="searchSubmit">
+            <i class="fa-solid fa-search"></i>
+        </button>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">AFRICA</p>
+
+            <h1>
+                Food <span>•</span> Culture <span>•</span> Adventure
+            </h1>
+
+            <p class="hero-text">
+                Taste authentic African flavours and explore breathtaking
+                destinations across Nigeria, Kenya and Tanzania.
+            </p>
+
+            <button class="primary-btn explore-btn">
+                Start Exploring
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <div class="hero-message">
+            Different countries<br>
+            <em>Same beautiful Africa</em>
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORY BAR ================= -->
+
+    <div class="category-bar">
+
+        <a href="#nigeria-foods" class="category active">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Foods</span>
+        </a>
+
+        <a href="#nigeria-places" class="category">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Destinations</span>
+        </a>
+
+        <a href="#countries" class="category">
+            <i class="fa-solid fa-globe"></i>
+            <span>All Countries</span>
+        </a>
+
+        <!-- <div class="pattern">
+            ✦ • ✦ • ✦
+        </div> -->
+
+    </div>
+
+
+    <main id="countries">
+
+
+        <!-- =====================================================
+             NIGERIA
+        ====================================================== -->
+
+        <section class="country-section" id="nigeria">
+
+            <div class="country-heading">
+
+                <div class="country-name">
+
+                    <div class="flag nigeria-flag">
+                        🇳🇬
+                    </div>
+
+                    <div>
+                        <h2>Nigeria</h2>
+
+                        <p>
+                            Rich Flavours
+                            <span>•</span>
+                            Vibrant Culture
+                            <span>•</span>
+                            Unforgettable Places
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="country-description">
+
+                    <p>
+                        From spicy street food to hearty traditional dishes,
+                        Nigeria's food scene is bold, flavourful and full of life.
+                    </p>
+
+                    <button class="country-btn" data-country="Nigeria">
+                        Explore Nigeria
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="country-grid">
+
+                <!-- Nigerian Foods -->
+
+                <div class="food-area" id="nigeria-foods">
+
+                    <h3>Popular Nigerian Foods</h3>
+
+                    <div class="food-grid">
+
+
+                        <!-- JOLLOF -->
+
+                        <article class="food-card">
+
+                            <img src="jollof.jpg"
+                                alt="Nigerian Jollof Rice">
+
+                            <div class="card-content">
+
+                                <h4>Nigerian Jollof Rice</h4>
+
+                                <p>
+                                    Long-grain rice cooked in a tomato,
+                                    red pepper and onion base with spices
+                                    and stock.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Nigerian Jollof Rice">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Nigerian Jollof Rice">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- EGUSI -->
+
+                        <article class="food-card">
+
+                            <img src="Egusi soup.jpg"
+                                alt="Pounded Yam and Egusi Soup">
+
+                            <div class="card-content">
+
+                                <h4>Pounded Yam and Egusi Soup</h4>
+
+                                <p>
+                                    Smooth pounded yam served with rich
+                                    egusi soup made from ground melon seeds,
+                                    leafy greens, stock, meat or fish.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Pounded Yam and Egusi Soup">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Pounded Yam and Egusi Soup">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- SUYA -->
+
+                        <article class="food-card">
+
+                            <img src="Suya.jpg"
+                                alt="Nigerian Suya">
+
+                            <div class="card-content">
+
+                                <h4>Suya</h4>
+
+                                <p>
+                                    Thinly sliced beef or chicken coated
+                                    in yaji, a spicy groundnut-and-pepper
+                                    seasoning, then grilled on skewers.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Suya">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Suya">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Nigerian Places -->
+
+                <div class="places-area" id="nigeria-places">
+
+                    <h3>Top 4 Places to Visit in Nigeria</h3>
+
+                    <div class="places-grid">
+
+                        <div class="place-card">
+
+                            <img src="N.Lekki conservation.jpg"
+                                alt="Lekki Conservation Centre">
+
+                            <h4>Lekki Conservation Centre</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="N.Zuma rock.jpg"
+                                alt="Zuma Rock">
+
+                            <h4>Zuma Rock</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="obudu.jpg"
+                                alt="Obudu Mountain Resort">
+
+                            <h4>Obudu Mountain Resort</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="Nike art gallery.jpg"
+                                alt="Nike Art Gallery">
+
+                            <h4>Nike Art Gallery</h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             KENYA
+        ====================================================== -->
+
+        <section class="country-section kenya-section" id="kenya">
+
+            <div class="country-heading">
+
+                <div class="country-name">
+
+                    <div class="flag">
+                        🇰🇪
+                    </div>
+
+                    <div>
+                        <h2>Kenya</h2>
+
+                        <p>
+                            Coastlines
+                            <span>•</span>
+                            Wildlife
+                            <span>•</span>
+                            Rich Traditions
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="country-description">
+
+                    <p>
+                        Explore Kenya's diverse cuisine and stunning landscapes,
+                        from the coast to the savannah.
+                    </p>
+
+                    <button class="country-btn" data-country="Kenya">
+                        Explore Kenya
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="country-grid">
+
+                <div class="food-area" id="kenya-foods">
+
+                    <h3>Popular Kenyan Foods</h3>
+
+                    <div class="food-grid five-cards">
+
+
+                        <!-- SMOCHA -->
+
+                        <article class="food-card">
+
+                            <img src="smocha.jpg"
+                                alt="Smocha">
+
+                            <div class="card-content">
+
+                                <h4>Smocha</h4>
+
+                                <p>
+                                    A soft chapati rolled around a boiled
+                                    sausage or sometimes a boiled egg.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Smocha">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Smocha">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- OMENA -->
+
+                        <article class="food-card">
+
+                            <img src="k.omena.jpg"
+                                alt="Omena">
+
+                            <div class="card-content">
+
+                                <h4>Omena</h4>
+
+                                <p>
+                                    Small, dry fish cooked with onions,
+                                    tomatoes and spices.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Omena">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Omena">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- BIRYANI -->
+
+                        <article class="food-card">
+
+                            <img src="K.biryani.jpg"
+                                alt="Chicken Biryani">
+
+                            <div class="card-content">
+
+                                <h4>Chicken Biryani</h4>
+
+                                <p>
+                                    Fragrant rice cooked with chicken
+                                    and aromatic spices.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Chicken Biryani">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Chicken Biryani">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- MOKIMO -->
+
+                        <article class="food-card">
+
+                            <img src="mokimo.jpg"
+                                alt="Mokimo">
+
+                            <div class="card-content">
+
+                                <h4>Mokimo</h4>
+
+                                <p>
+                                    Mashed greens, potatoes, peas and maize,
+                                    often served with meat.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Mokimo">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Mokimo">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- Kenya Places -->
+
+                <div class="places-area" id="kenya-places">
+
+                    <h3>Top 4 Places to Visit in Kenya</h3>
+
+                    <div class="places-grid">
+
+                        <div class="place-card">
+
+                            <img src="mombasa.jpg"
+                                alt="Mombasa">
+
+                            <h4>Mombasa<span>(Coast)</span></h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="masai mara.jpg"
+                                alt="Maasai Mara">
+
+                            <h4>Maasai Mara <span>(National Reserve)</span></h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="Kenya H.gate.jpg"
+                                alt="Hell's Gate National Park">
+
+                            <h4>Hell's Gate National Park</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="tsavo east.jpg"
+                                alt="tsavo East">
+
+                            <h4>Tsavo East</h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             TANZANIA
+        ====================================================== -->
+
+        <section class="country-section" id="tanzania">
+
+            <div class="country-heading">
+
+                <div class="country-name">
+
+                    <div class="flag">
+                        🇹🇿
+                    </div>
+
+                    <div>
+                        <h2>Tanzania</h2>
+
+                        <p>
+                            Mountains
+                            <span>•</span>
+                            Wildlife
+                            <span>•</span>
+                            Islands
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="country-description">
+
+                    <p>
+                        From the heights of Kilimanjaro to the beaches
+                        of Zanzibar, Tanzania offers unforgettable experiences.
+                    </p>
+
+                    <button class="country-btn" data-country="Tanzania">
+                        Explore Tanzania
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="country-grid">
+
+                <div class="food-area" id="tanzania-foods">
+
+                    <h3>Popular Tanzanian Foods</h3>
+                      <p>The Home of Vegetables.</p> 
+                    <div class="food-grid five-cards">
+
+
+                        <article class="food-card">
+
+                            <img src="matembere .tz.jpg"
+                                alt="Ugali">
+
+                            <div class="card-content">
+
+                                <h4>Ugali</h4>
+
+                                <p>
+                                    Tasty vegetable leaves,best served with ugali.
+                                    
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Ugali">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Ugali">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="food-card">
+
+                            <img src="kisamvu.tz.jpg"
+                                alt="Kisamvu">
+
+                            <div class="card-content">
+
+                                <h4>Kisamvu</h4>
+
+                                <p>
+                                    Cassava leaves cooked with onions,
+                                    tomatoes and spices.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Kisamvu">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Kisamvu">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="food-card">
+
+                            <img src="mlenda.tz.jpg"
+                                alt="Mlenda">
+
+                            <div class="card-content">
+
+                                <h4>Mlenda</h4>
+
+                                <p>
+                                  An amazing ,delicious meal of Fresh cassava leaves cooked with
+                                    coconut milk and spices.
+                                    
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Mlenda">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Mlenda">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <article class="food-card">
+
+                            <img src="uji wa mtama. tz.jpg"
+                                alt="Uji wa Mtama">
+
+                            <div class="card-content">
+
+                                <h4>Uji wa Mtama</h4>
+
+                                <p>
+                                    Finger millet porridge,
+                                    rich,nutritious and tasty.
+                                </p>
+
+                                <div class="card-buttons">
+
+                                    <button class="outline-btn ingredients-btn"
+                                        data-food="Uji wa Mtama">
+                                        Ingredients
+                                    </button>
+
+                                    <button class="details-btn"
+                                        data-food="Uji wa Mtama">
+                                        View Details
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tanzania Places -->
+
+                <div class="places-area" id="tanzania-places">
+
+                    <h3>Top 4 Places to Visit in Tanzania</h3>
+
+                    <div class="places-grid">
+
+                        <div class="place-card">
+
+                            <img src="Mt. kilimanjaro.jpg"
+                                alt="Mount Kilimanjaro">
+
+                            <h4>Mount Kilimanjaro</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="serengeti.jpg"
+                                alt="Serengeti">
+
+                            <h4>Serengeti <span>(National Park)</span></h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="zanzibar.jpg"
+                                alt="Zanzibar">
+
+                            <h4>Zanzibar</h4>
+
+                        </div>
+
+                        <div class="place-card">
+
+                            <img src="Ngorongoro.jpg"
+                                alt="Ngorongoro Crater">
+
+                            <h4>Ngorongoro Crater</h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= EXPLORE NEXT ================= -->
+
+    <section class="explore-next" id="explore-next">
+
+        <div class="explore-inner">
+
+            <div class="explore-text">
+
+                <div class="compass">
+                    <i class="fa-regular fa-compass"></i>
+                </div>
+
+                <div>
+                    <h2>Which country should we explore next?</h2>
+
+                    <p>
+                        Tell us your dream destination and we'll add it to our list!
+                    </p>
+                </div>
+
+            </div>
+
+
+            <form id="destinationForm">
+
+                <input type="text"
+                    id="destinationInput"
+                    placeholder="e.g. Morocco, Ghana, Egypt..."
+                    required>
+
+                <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer" id="about">
+
+        <div class="footer-top">
+
+            <!-- Logo -->
+
+            <div class="footer-brand">
+
+                <img src="tour logo.png" alt="Africa Tour Footer Logo">
+
+                <small>
+                    BEST AFRICA TOUR DESTINATION
+                </small>
+
+            </div>
+
+
+            <!-- Footer Navigation -->
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#nigeria-foods">Foods</a>
+                <a href="#nigeria-places">Places</a>
+                <a href="#about">About</a>
+                <a href="#explore-next">Explore Next</a>
+
+            </div>
+
+
+            <!-- About -->
+
+            <div class="footer-about">
+
+                <h3>About Us</h3>
+
+                <p>
+                    We are passionate about Africa —
+                    its food, culture and beautiful places.
+                    Join us on this journey!
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                Good Food. Great Places. Unforgettable Africa.
+            </p>
+
+             <!-- <div class="footer-pattern">
+                 ✦ • ✦ • ✦ 
+            </div>  -->
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================= MODAL ================= -->
+
+    <div class="modal" id="foodModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <i class="fa-solid fa-utensils modal-icon"></i>
+
+            <h2 id="modalTitle">Food Details</h2>
+
+            <p id="modalText"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
